@@ -9,9 +9,9 @@ bot = telebot.TeleBot("5852649425:AAGdTBjY49FvtIZ6CjxmriJlgL--b1j7jEY")
 p3 = types.InlineKeyboardMarkup()
 p5 = types.InlineKeyboardButton(text = "[!] 𝗚𝗛𝗢𝗦𝗧 ^ 𝗦𝗢𝗨𝗥𝗖𝗘🇮🇶",url="t.me/T_4IJ")
 A1 = types.InlineKeyboardButton(text = "اوامر الحماية .",callback_data="A1")
-A2 = types.InlineKeyboardButton(text = "اوامر التسلية .",callback_data="A2")
-A3 = types.InlineKeyboardButton(text = "اوامر الالعاب .",callback_data="A3")
-A4 = types.InlineKeyboardButton(text = "اوامر الموسيقى ",callback_data="A4")
+A2 = types.InlineKeyboardButton(text = "؟ .",callback_data="A2")
+A3 = types.InlineKeyboardButton(text = "؟ .",callback_data="A3")
+A4 = types.InlineKeyboardButton(text = "؟ ",callback_data="A4")
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
@@ -406,16 +406,16 @@ def start(message):
 			bot.reply_to(message,text="""*اسم الحيوان :* [{}](t.me/{})* 
 نسبة الحيوان : {}
 نوع الحيوان : {}*""".format(f2,t2,r222,d222),disable_web_page_preview=True,parse_mode="markdown")
-	if message.text == "السورس" or message.text == "سورس":
-	    url = ["https://telegra.ph/file/5047bab5c7a88be186c93.jpg","https://telegra.ph/file/b69cb1ea62b6b63162aca.jpg","https://telegra.ph/file/c621f99ca961ffa2dafb8.jpg","https://telegra.ph/file/5571ba4345056196a6c2b.jpg"]
+	if message.text == "SADRE" or message.text == "بوت":
+	    url = ["https://t.me/mane5u/12"]
 	    p3 = types.InlineKeyboardMarkup()
 	    e3 = types.InlineKeyboardButton(text = "قناة السورس .",url="t.me/T_4IJ")
 	    e4 = types.InlineKeyboardButton(text = "المطور .",url="t.me/T_4IJ")
 	    p3.add(e3,e4)
 	    r = random.choice(url)
-	    h = """اهلا بك عزيزي في سورس الشبح
-[قناة السورس .](t.me/T_4IJ)
-[مطور السورس .](t.me/T_4IJ)"""
+	    h = """اهلا بك عزيزي في بوت ↫ 𝐒𝐀𝐃𝐑𝐄  
+[↫ 𝐒𝐀𝐃𝐑𝐄  .](t.me/T_4IJ)
+[↫ 𝐒𝐀𝐃𝐑𝐄  .](t.me/T_4IJ)"""
 	    bot.send_photo(message.chat.id,r,h,reply_to_message_id=message.message_id,reply_markup=p3,parse_mode="markdown")
 	if message.text == "e":
 		c = bot.get_chat_member_count(chat_id)
@@ -472,10 +472,10 @@ def start(message):
 	p3.add(p5)
 	if message.text == "تمبلر" or message.text == "صور تمبلر" or message.text == "افتار تمبلر":
 		photo_str =  random.randint(74,154)
-		avtar_ainme = "https://t.me/PhotosDavid/" + str(photo_str)
+		avtar_ainme = "https://t.me/vi44iv/ " + str(photo_str)
 		bot.send_photo(message.chat.id,avtar_ainme,"""*تم اختيار صوره تمبلر اليك،
 - - - -- - - - - -- - - - -
-CH - @T_4IJ : @BBANND*""",parse_mode="markdown",reply_to_message_id=message.message_id,reply_markup=p3)
+CH - @T_4IJ : @T_4IJ*""",parse_mode="markdown",reply_to_message_id=message.message_id,reply_markup=p3)
 	p3 = types.InlineKeyboardMarkup()
 	p5 = types.InlineKeyboardButton( "[!] 𝗚𝗛𝗢𝗦𝗧 ^ 𝗦𝗢𝗨𝗥𝗖𝗘🇮🇶",url="t.me/T_4IJ")
 	p3.add(p5)
@@ -489,10 +489,10 @@ CH - @T_4IJ : @BBANND*""",parse_mode="markdown",reply_to_message_id=message.mess
 	 bot.reply_to(m,mm.replace("تاك"," تعال حب ديصيحوك 🕸️"))	
 	if message.text == "لاعبين" or message.text == "لاعب" or message.text == "افتار لاعب" or message.text == "افتار لاعبين":
 		photo_str =  random.randint(74,154)
-		avtar_ball = "https://t.me/avtar781/" + str(photo_str)
+		avtar_ball = "https://t.me/football_676/" + str(photo_str)
 		bot.send_photo(message.chat.id,avtar_ball,"""*تم اختيار صورة لاعب اليك،
 - - - -- - - - - -- - - - -
-CH - @T_4IJ : @BBANND*""",parse_mode="markdown",reply_to_message_id=message.message_id,reply_markup=p3)
+CH - @T_4IJ : @T_4IJ*""",parse_mode="markdown",reply_to_message_id=message.message_id,reply_markup=p3)
 	if message.text == "ريمكس" or message.text == "مكس" or message.text == "ريم":
 		song_str = random.randint(74,154)
 		song_voice = "https://t.me/vVvdav/" + str(song_str)
@@ -514,12 +514,32 @@ CH - @T_4IJ : @BBANND*""",parse_mode="markdown",reply_to_message_id=message.mess
 		bot.reply_to(message,"عوفني بحالي🙄")
 	elif message.text == "احبك":
 		bot.reply_to(message,"واليحب بلوى🙂")
+	elif message.text == "جوعانه":
+		bot.reply_to(message,"امـشي نــروح نــاكـل عـلـى حسـابـج😘🙈")
+	elif message.text == "صدك":
+		bot.reply_to(message,"قـابـل اجـذب عليك")
+	elif message.text == "ايه":
+		bot.reply_to(message,"عوفها نايمه 😴")
+	elif message.text == "احمد":
+		bot.reply_to(message,"شتريد منه🔪")
 	elif message.text == "احبج":
 		bot.reply_to(message,"مـن شــوكت هـاي😴")
-	elif message.text == "المطور":
+	elif message.text == "الو":
+		bot.reply_to(message,"ارجع نام خلينا نحجي🙄")
+	elif message.text == "محمد":
+		bot.reply_to(message,"🌹اللهم صلى وسلم وبارك على سيدنا محمد وعلى آله وصحبه أجمعين 🌹")
+	elif message.text == "بالتوفيق":
+		bot.reply_to(message,"للجميع انشاءالله🌹❤️ ")
+	elif message.text == "شسمج":
+		bot.reply_to(message,"لك عمو خصوصيه 🔪")
+	elif message.text == "هلوو":
+		bot.reply_to(message,"هـلا فـيـك😘")
+	elif message.text == "شنو":
+		bot.reply_to(message,"لـك انته اثـول")
+    elif message.text == "المطور":
 		bot.reply_to(message,"عوفه نايم @T_4IJ")
-	elif message.text == "نارو":
-		bot.reply_to(message,"😻هلا حياتي")
+	elif message.text == "نامو":
+		bot.reply_to(message,"الـيـوم سـهر للـصبح😎🤳")
 	elif message.text == "شلونج":
 		bot.reply_to(message,"بخير دام انته بخير 🌹 يـروحي")
 	elif message.text == "من وين":
@@ -676,6 +696,9 @@ def callback_data(call):
  التاريخ <<
  تاك باليوزر <<
  الرابط <<
+ غنيلي <<
+ مكس <<
+ تمبلر <<
  المطور <<*""",parse_mode="markdown",reply_markup=p3)
   
 #####+#####
