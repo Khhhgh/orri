@@ -310,12 +310,12 @@ def start(message):
 
 الوقت ☆ {}*
 """.format(j,l,f2,t2,t),disable_web_page_preview=True,parse_mode="markdown")
-	if message.text == "رفع مطي" or message.text == "وضع مطي":
+	if message.text == "رفع مشرف" or message.text == "رفع ادمن":
 		if message.reply_to_message:
 			f2 = message.reply_to_message.from_user.first_name
 			t2 = message.reply_to_message.from_user.username
 			bot.reply_to(message,"""*تم رفع  **العضو -*  [{}](t.me/{})*
-في قائمة المطاية اصبح مطي جديد*""".format(f2,t2),parse_mode="markdown",disable_web_page_preview=True)
+في قائمة المشرفين اصبح مشرف جديد*""".format(f2,t2),parse_mode="markdown",disable_web_page_preview=True)
 	
 	m = message.text
 	if m == ".":
