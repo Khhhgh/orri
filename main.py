@@ -337,12 +337,12 @@ def start(message):
 		t2 = message.from_user.username
 		bot.send_message(message.chat.id,"""*عذراً عزيزي *✵ [{}](t.me/{})
 *لا يمكنك ارسال الروابط*""".format(f2,t2),parse_mode="markdown",disable_web_page_preview=True)
-	if message.text == "تثبيت" or message.text == "ت" or message.text == "bin":
+	if message.text == "srhvcfhvhyt" or message.text == "khvyubvghu" or message.text == "ojhbbjhgyhy":
 	  if message.reply_to_message:
 	  	bot.pin_chat_messages(message.chat.id,message.reply_to_message.message_id)
 	  	bot.reply_to(message,"تم تثبيت الرسالة!")
 	  
-	if message.text == "الغاء تثبيت" or message.text == "unban" or message.text == "الغاء التثبيت":
+	if message.text == "رزاوزتنوزاتنزذذله" or message.text == "ijhbnjjjnnbgyf" or message.text == "bvhjjjkihbnnjjhfy":
 		if message.reply_to_message:
 			bot.unpin_all_chat_message(message.chat.id,message.reply_to_message.message_id)
 			bot.reply_to(message,"تم الغاء تثبيت الرسالة!") 
