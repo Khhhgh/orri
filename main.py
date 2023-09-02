@@ -497,17 +497,17 @@ CH - @T_4IJ : @BBANND*""",parse_mode="markdown",reply_to_message_id=message.mess
 		song_str = random.randint(74,154)
 		song_voice = "https://t.me/vVvdav/" + str(song_str)
 		bot.send_audio(message.chat.id,song_voice,"""*✯ تم ختيار ريمكس اليك، 
-- @Sss0s0bot*""",parse_mode="markdown",reply_to_message_id=message.message_id,reply_markup=p3)
-	if message.text == "شعر" or message.text == "ش":
+- @T_4IJ*""",parse_mode="markdown",reply_to_message_id=message.message_id,reply_markup=p3)
+	if message.text == "music" or message.text == "mus":
 		song_str = random.randint(74,904)
-		song_voice = "https://t.me//" + str(song_str)
+		song_voice = "https://t.me/vVvdav/" + str(song_str)
 		bot.send_voice(message.chat.id,song_voice,"""*✯ تم ختيار شعر اليك، 
-- @Sss0s0bot*""",parse_mode="markdown",reply_to_message_id=message.message_id,reply_markup=p3)
+- @T_4IJ*""",parse_mode="markdown",reply_to_message_id=message.message_id,reply_markup=p3)
 	if message.text == "غنيلي" or message.text == "غ":
 		song_str = random.randint(74,154)
 		song_voice = "https://t.me/DjAseel/" + str(song_str)
 		bot.send_audio(message.chat.id,song_voice,"""*✯ تم ختيار اغنية لك، 
-- @Sss0s0bot*""",parse_mode="markdown",reply_to_message_id=message.message_id,reply_markup=p3)
+- @T_4IJ*""",parse_mode="markdown",reply_to_message_id=message.message_id,reply_markup=p3)
 	if message.text == "هلو":
 		bot.reply_to(message,"هلوات يروحي 😍")
 	elif message.text == "وين":
