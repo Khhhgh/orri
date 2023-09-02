@@ -324,7 +324,7 @@ def start(message):
 		p5 = types.InlineKeyboardButton(text = "🇰🇼",url="t.me/T_4IJ")
 		p3.add(p5)
 		bot.reply_to(message,f"{f2}",reply_markup=p3)
-	if '@' in message.text.lower():
+	if 'kbbhkjbbjbi' in message.text.lower():
 		bot.delete_message(message.chat.id, message.message_id)
 		f2 = message.from_user.first_name
 		t2 = message.from_user.username
@@ -420,13 +420,13 @@ def start(message):
 	if message.text == "e":
 		c = bot.get_chat_member_count(chat_id)
 		bot.reply_to(message,f"{c}")
-	if message.text == "اطردني" or message.text == "غادر":
+	if message.text == "طواتتزدتررداترزتهم" or message.text == "متزذطبااننورعختر":
 		i = message.from_user.id
 		bot.kick_chat_member(message.chat.id,i)
 		f2 = message.from_user.first_name
 		t2 = message.from_user.username
 		bot.reply_to(message,text="*تم حظرك من المجموعة↩️ :* [{}](t.me/{})".format(f2,t2,i),parse_mode="markdown",disable_web_page_preview=True)
-	if message.text == "حظر" or message.text == "طرد" or message.text == "حضر":
+	if message.text == "حتاترداتزباتررداللعتر" or message.text == "نززدتنورزتنوو" or message.text == "نزذبباادذطييلزرونمخحمر":
 		if message.reply_to_message.from_user.id:
 			bb = message.reply_to_message.from_user.id
 			vv = message.reply_to_message.from_user.username
@@ -434,7 +434,7 @@ def start(message):
 			f2 = message.reply_to_message.from_user.first_name
 			t2 = message.reply_to_message.from_user.username
 			bot.reply_to(message,text="*تم حظر العضو ↩️ :* [{}](t.me/{})".format(f2,t2,vv,bb),parse_mode="markdown",disable_web_page_preview=True)
-	if message.text == "حظر" or message.text == "طرد" or message.text == "حضر":
+	if message.text == "حظننتات تادزروم" or message.text == "طردعتتتتهنرنمك" or message.text == "حضرتراااتنرزتنرزز":
 		if message.reply_to_message:
 			bb = message.reply_to_message.from_user.id
 			vv = message.reply_to_message.from_user.username
@@ -442,7 +442,7 @@ def start(message):
 			f2 = message.reply_to_message.from_user.first_name
 			t2 = message.reply_to_message.from_user.username
 			bot.reply_to(message,text="*تم حظر العضو ↩️ :* [{}](t.me/{})".format(f2,t2,vv,bb),parse_mode="markdown",disable_web_page_preview=True)
-	if message.text == "الغاء حظر" or message.text == "الغاء الحظر":
+	if message.text == "النابي نتادرررون" or message.text == "الغاء نرتنننوننزدقغتر":
 		if message.reply_to_message:
 			bb = message.reply_to_message.from_user.id
 			vv = message.reply_to_message.from_user.username
@@ -455,9 +455,9 @@ def start(message):
 		p3 = types.InlineKeyboardMarkup()
 		p5 = types.InlineKeyboardButton(text = "[!] 𝗚𝗛𝗢𝗦𝗧 ^ 𝗦𝗢𝗨𝗥𝗖𝗘 🇮🇶",url="t.me/T_4IJ")
 		A1 = types.InlineKeyboardButton(text = "اوامر الحماية .",callback_data="A1")
-		A2 = types.InlineKeyboardButton(text = "اوامر التسلية .",callback_data="A2")
-		A3 = types.InlineKeyboardButton(text = "اوامر الالعاب .",callback_data="A3")
-		A4 = types.InlineKeyboardButton(text = "اوامر الموسيقى ",callback_data="A4")
+		A2 = types.InlineKeyboardButton(text = "فارغ .",callback_data="A2")
+		A3 = types.InlineKeyboardButton(text = "فارغ .",callback_data="A3")
+		A4 = types.InlineKeyboardButton(text = "فارغ",callback_data="A4")
 		p3.add(A1,A2)
 		p3.add(A3,A4)
 		p3.add(p5)
