@@ -3,7 +3,7 @@ from telebot import types
 import random
 import telebot
 from datetime import date ,timedelta ,time
-import time 
+import time
 ssss = '1310488710'
 bot = telebot.TeleBot("5852649425:AAGdTBjY49FvtIZ6CjxmriJlgL--b1j7jEY")
 p3 = types.InlineKeyboardMarkup()
@@ -536,8 +536,6 @@ CH - @T_4IJ : @T_4IJ*""",parse_mode="markdown",reply_to_message_id=message.messa
 		bot.reply_to(message,"هـلا فـيـك😘")
 	elif message.text == "شنو":
 		bot.reply_to(message,"لـك انته اثـول")
-    elif message.text == "المطور":
-		bot.reply_to(message,"عوفه نايم @T_4IJ")
 	elif message.text == "نامو":
 		bot.reply_to(message,"الـيـوم سـهر للـصبح😎🤳")
 	elif message.text == "شلونج":
