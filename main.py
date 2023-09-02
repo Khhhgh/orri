@@ -470,9 +470,9 @@ def start(message):
 	p3 = types.InlineKeyboardMarkup()
 	p5 = types.InlineKeyboardButton( "[!] 𝗚𝗛𝗢𝗦𝗧 ^ 𝗦𝗢𝗨𝗥𝗖𝗘🇮🇶",url="t.me/T_4IJ")
 	p3.add(p5)
-	if message.text == "تمبلر" or message.text == "صور تمبلر" or message.text == "افتار تمبلر":
+	if message.text == "صوره" or message.text == "صور تمبلر" or message.text == "افتار تمبلر":
 		photo_str =  random.randint(74,154)
-		avtar_ainme = "https://t.me/vi44iv/ " + str(photo_str)
+		avtar_ainme = "https://t.me/sojbnm/" + str(photo_str)
 		bot.send_photo(message.chat.id,avtar_ainme,"""*تم اختيار صوره تمبلر اليك،
 - - - -- - - - - -- - - - -
 CH - @T_4IJ : @T_4IJ*""",parse_mode="markdown",reply_to_message_id=message.message_id,reply_markup=p3)
@@ -696,7 +696,7 @@ def callback_data(call):
  الرابط <<
  غنيلي <<
  مكس <<
- تمبلر <<
+ صوره <<
  المطور <<*""",parse_mode="markdown",reply_markup=p3)
   
 #####+#####
