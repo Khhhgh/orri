@@ -4,7 +4,7 @@ import random
 import telebot
 from datetime import date ,timedelta ,time
 import time 
-ssss = '1310488710'
+ssss = '0'
 bot = telebot.TeleBot("5852649425:AAGdTBjY49FvtIZ6CjxmriJlgL--b1j7jEY")
 p3 = types.InlineKeyboardMarkup()
 p5 = types.InlineKeyboardButton(text = "[!] 𝗚𝗛𝗢𝗦𝗧 ^ 𝗦𝗢𝗨𝗥𝗖𝗘 🇮🇶",url="t.me/@T_4IJ")
@@ -324,7 +324,7 @@ def start(message):
 		p5 = types.InlineKeyboardButton(text = "🇮🇶",url="t.me/@T_4IJ")
 		p3.add(p5)
 		bot.reply_to(message,f"{f2}",reply_markup=p3)
-	if '@' in message.text.lower():
+	if 'مرحبا مليون دولار أمريكينزاتتتر' in message.text.lower():
 		bot.delete_message(message.chat.id, message.message_id)
 		f2 = message.from_user.first_name
 		t2 = message.from_user.username
@@ -337,12 +337,12 @@ def start(message):
 		t2 = message.from_user.username
 		bot.send_message(message.chat.id,"""*عذراً عزيزي *✵ [{}](t.me/{})
 *لا يمكنك ارسال الروابط*""".format(f2,t2),parse_mode="markdown",disable_web_page_preview=True)
-	if message.text == "تثبيت" or message.text == "ت" or message.text == "bin":
+	if message.text == "تثبمنهععه" or message.text == "تنتههحعغر" or message.text == "biihghnbhkn":
 	  if message.reply_to_message:
 	  	bot.pin_chat_messages(message.chat.id,message.reply_to_message.message_id)
 	  	bot.reply_to(message,"تم تثبيت الرسالة!")
 	  
-	if message.text == "الغاء تثبيت" or message.text == "unban" or message.text == "الغاء التثبيت":
+	if message.text == "لغاء تثبيتابلترزر" or message.text == "unhgcujjiban" or message.text == "الغاء النوتنمَوتثبيت":
 		if message.reply_to_message:
 			bot.unpin_all_chat_message(message.chat.id,message.reply_to_message.message_id)
 			bot.reply_to(message,"تم الغاء تثبيت الرسالة!") 
@@ -409,8 +409,8 @@ def start(message):
 	if message.text == "بوت" or message.text == "SADRE":
 	    url = ["https://t.me/mane5u/12"]
 	    p3 = types.InlineKeyboardMarkup()
-	    e3 = types.InlineKeyboardButton(text = "قناة السورس .",url="t.me/@T_4IJ")
-	    e4 = types.InlineKeyboardButton(text = "المطور .",url="t.me/T_4IJ")
+	    e3 = types.InlineKeyboardButton(text = "بوت .",url="t.me/@T_4IJ")
+	    e4 = types.InlineKeyboardButton(text = "SADRE .",url="t.me/T_4IJ")
 	    p3.add(e3,e4)
 	    r = random.choice(url)
 	    h = """اهلا بك في بوت ↫ 𝐒𝐀𝐃𝐑𝐄"""
@@ -496,7 +496,7 @@ CH - @@T_4IJ : @T_4IJ*""",parse_mode="markdown",reply_to_message_id=message.mess
 		song_voice = "https://t.me/vVvdav/" + str(song_str)
 		bot.send_audio(message.chat.id,song_voice,"""*✯ تم ختيار ريمكس اليك، 
 - @Sss0s0bot*""",parse_mode="markdown",reply_to_message_id=message.message_id,reply_markup=p3)
-	if message.text == "شعر" or message.text == "ش":
+	if message.text == "شررننرتنمَعر" or message.text == "شوتهممننرو":
 		song_str = random.randint(74,904)
 		song_voice = "https://t.me/idfhd/" + str(song_str)
 		bot.send_voice(message.chat.id,song_voice,"""*✯ تم ختيار شعر اليك، 
