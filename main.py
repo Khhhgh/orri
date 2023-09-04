@@ -255,7 +255,7 @@ pm = ["ع اساس شلونه،",
 def start(message):
 	#if 'http' in message.text:
 #		bot.delete_message(id,messagesid)
-	if message.text == "ا" or message.text == "id" or message.text == "ايدي":
+	if message.text == "vojvhjbvjb" or message.text == "idbbjjnnijb" or message.text == "ايدنزانوزنمََي":
 		n = ["وففف تخبل 😍🤤",
 "لزكت بيه دغيره 😒😒",
 "كلسا ايدي كلسا ايدي دكافي كبرر ",
@@ -272,7 +272,7 @@ def start(message):
 		k = message.from_user.username
 		d = time.strftime("%p %H:%M")
 		t = message.chat.type
-		y = '@T_4IJ'
+		y = '@jhghjnbbjj'
 		bot.send_photo(message.chat.id,url,"""*  {}
 		
 𖡋 𝐈𝐃 ⌯ {} 
@@ -418,13 +418,13 @@ def start(message):
 	if message.text == "e":
 		c = bot.get_chat_member_count(chat_id)
 		bot.reply_to(message,f"{c}")
-	if message.text == "اطردني" or message.text == "غادر":
+	if message.text == "اطلااتننردني" or message.text == "غورزتنادر":
 		i = message.from_user.id
 		bot.kick_chat_member(message.chat.id,i)
 		f2 = message.from_user.first_name
 		t2 = message.from_user.username
 		bot.reply_to(message,text="*تم حظرك من المجموعة↩️ :* [{}](t.me/{})".format(f2,t2,i),parse_mode="markdown",disable_web_page_preview=True)
-	if message.text == "حظر" or message.text == "طرد" or message.text == "حضر":
+	if message.text == "حظر" or message.text == "طرورتمَود" or message.text == "حضر":
 		if message.reply_to_message.from_user.id:
 			bb = message.reply_to_message.from_user.id
 			vv = message.reply_to_message.from_user.username
@@ -440,7 +440,7 @@ def start(message):
 			f2 = message.reply_to_message.from_user.first_name
 			t2 = message.reply_to_message.from_user.username
 			bot.reply_to(message,text="*تم حظر العضو ↩️ :* [{}](t.me/{})".format(f2,t2,vv,bb),parse_mode="markdown",disable_web_page_preview=True)
-	if message.text == "الغاء حظر" or message.text == "الغاء الحظر":
+	if message.text == "الغاء اتنمككَرحظر" or message.text == "الغاء تلعننووالحظر":
 		if message.reply_to_message:
 			bb = message.reply_to_message.from_user.id
 			vv = message.reply_to_message.from_user.username
@@ -516,14 +516,14 @@ CH - @@T_4IJ : @T_4IJ*""",parse_mode="markdown",reply_to_message_id=message.mess
 		bot.reply_to(message,"امـشي نــروح نــاكـل عـلـى حسـابـج😘🙈")
 	elif message.text == "صدك":
 		bot.reply_to(message,"قـابـل اجـذب عليك")
-	elif message.text == "ايه":
-		bot.reply_to(message,"عوفها نايمه 😴")
-	elif message.text == "احمد":
-		bot.reply_to(message,"شتريد منه🔪")
+	elif message.text == "المالك":
+		bot.reply_to(message,"@T_4IJ")
+	elif message.text == "وسيط":
+		bot.reply_to(message,"ادخل هنا > https://t.me/+Q8RXjm-4bY03ZjY6")
 	elif message.text == "احبج":
 		bot.reply_to(message,"مـن شــوكت هـاي😴")
-	elif message.text == "الو":
-		bot.reply_to(message,"ارجع نام خلينا نحجي🙄")
+	elif message.text == "القوانين":
+		bot.reply_to(message,"1 - ممنوع التـكرار تنحـضر \n 2 - اذا انقطيت مو مشكلتي اطلب وسيط \n 3- ممنوع التجاوز تنحضر \n 4- اكتب وسيط لعرض الكروب")
 	elif message.text == "محمد":
 		bot.reply_to(message,"🌹اللهم صلى وسلم وبارك على سيدنا محمد وعلى آله وصحبه أجمعين 🌹")
 	elif message.text == "بالتوفيق":
@@ -540,8 +540,8 @@ CH - @@T_4IJ : @T_4IJ*""",parse_mode="markdown",reply_to_message_id=message.mess
 		bot.reply_to(message,"بخير دام انته بخير 🌹 يـروحي")
 	elif message.text == "من وين":
 		bot.reply_to(message,"عيني شهل احراج عوفه بحاله")
-	elif message.text == "نزوج":
-		bot.reply_to(message,"مزوجه اني ولي")
+	elif message.text == "عموله":
+		bot.reply_to(message,"1 - نقاط المليار > كل 3k > 300")
 	elif message.text == "جوعان":
 		bot.reply_to(message,"شوف الحجيه شنو مخليتلك بالثلاجه☺️")
 	elif message.text == "تعال خاص":
