@@ -541,7 +541,7 @@ CH - @@T_4IJ : @T_4IJ*""",parse_mode="markdown",reply_to_message_id=message.mess
 	elif message.text == "من وين":
 		bot.reply_to(message,"عيني شهل احراج عوفه بحاله")
 	elif message.text == "عموله":
-		bot.reply_to(message,"1 - نقاط المليار > كل 3k > 300")
+		bot.reply_to(message,"3k = 300    \n  $5 = $1 ")
 	elif message.text == "جوعان":
 		bot.reply_to(message,"شوف الحجيه شنو مخليتلك بالثلاجه☺️")
 	elif message.text == "تعال خاص":
