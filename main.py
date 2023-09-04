@@ -607,7 +607,7 @@ CH - @@T_4IJ : @T_4IJ*""",parse_mode="markdown",reply_to_message_id=message.mess
 		t = time.strftime("%p %H:%S")
 		bot.reply_to(message,f"الساعة ⇜{t}",reply_markup=p3)	
 	m = message.text
-	if m == "صورتي" or m == "الصورة" or m == "بروفايلي":
+	if m == "تعننزلعتزز" or m == "الصورةاللاتزر" or m == "بروراتنواهوفايلي":
 		url = f"https://t.me/{message.from_user.username}"
 		bot.send_photo(message.chat.id,url,reply_to_message_id=message.message_id)
 	if "كول" in message.text:
