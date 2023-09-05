@@ -519,7 +519,7 @@ CH - @@T_4IJ : @T_4IJ*""",parse_mode="markdown",reply_to_message_id=message.mess
 	elif message.text == "المالك":
 		bot.reply_to(message,"@T_4IJ")
 	elif message.text == "وسيط":
-		bot.reply_to(message,"ادخل هنا > https://t.me/+Q8RXjm-4bY03ZjY6")
+		bot.reply_to(message,"1 - @T_4IJ \n 2- @Aaa820 \n ادخل هنا > https://t.me/+Q8RXjm-4bY03ZjY6")
 	elif message.text == "احبج":
 		bot.reply_to(message,"مـن شــوكت هـاي😴")
 	elif message.text == "القوانين":
