@@ -515,8 +515,7 @@ CH - @@T_4IJ : @T_4IJ*""",parse_mode="markdown",reply_to_message_id=message.mess
 	elif message.text == "جوعانه":
 		bot.reply_to(message,"امـشي نــروح نــاكـل عـلـى حسـابـج😘🙈")
 	elif message.text == "عموله":
-		bot.reply_to(message,"
-250    =    k 5      ⇐       k1   مـن
+		bot.reply_to(message,"250    =    k 5      ⇐       k1   مـن
 500    =    k 10    ⇐       k5   مـن
 750    =    k 15    ⇐       k10 مـن 
 1000  =    k 20    ⇐       k15 مـن
@@ -540,11 +539,10 @@ $ :
 	elif message.text == "وسيط":
 		bot.reply_to(message,"1 - @T_4IJ \t SADRE\n2- @Hima_is_Back \t HIMA\n3 - @d_vbb \t SAJAD\nادخل هنا > https://t.me/+Q8RXjm-4bY03ZjY6")
 	elif message.text == "ع":
-		bot.reply_to(message,"
-250    =    k 5      ⇐       k1   مـن
-500    =    k 10    ⇐       k5   مـن
-750    =    k 15    ⇐       k10 مـن 
-1000  =    k 20    ⇐       k15 مـن
+		bot.reply_to(message,"250   =   k 5      ⇐       k1   مـن
+500   =   k 10     ⇐       k5   مـن
+750   =   k 15     ⇐       k10  مـن 
+1000  =   k 20     ⇐       k15  مـن
  
 يعني كل 5ك = 250 عمولـة الــوسـيـط
 ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ 
